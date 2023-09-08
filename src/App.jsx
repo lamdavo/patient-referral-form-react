@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 import {
   Accordion,
@@ -11,16 +11,6 @@ import getFormValues from './utils/getFormValues';
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
-const getLocalStorage = () => {
-  let list = localStorage.getItem('list');
-  if (list) {
-    list = JSON.parse(localStorage.getItem('list'));
-  } else {
-    list = [];
-  }
-  return list;
-};
 
 const defaultList = JSON.parse(localStorage.getItem('list') || '[]');
 
@@ -99,10 +89,6 @@ function App() {
     localStorage.clear();
     setPeople([]);
   };
-
-  useEffect(() => {
-    getLocalStorage();
-  }, [people]);
 
   return (
     <>

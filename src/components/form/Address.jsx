@@ -17,6 +17,7 @@ function Address() {
           className='block w-full border-0 py-1.5 text-gray-900  placeholder:text-gray-400 0 sm:text-sm sm:leading-6 border-b border-[ #3A719B]'
           placeholder='Address *'
           autoComplete='address-line1 country'
+          required
         />
       </AddressAutofill>
     </div>
