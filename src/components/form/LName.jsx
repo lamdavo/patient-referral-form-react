@@ -16,8 +16,6 @@ export default function LastName() {
           id='lastName'
           className='block w-full  border-0 py-1.5 pl-10 text-gray-900  sm:text-sm sm:leading-6 border-b border-[#3A719B]'
           placeholder='Last Name *'
-          autoComplete='Last Name'
-          required
         />
         <hr />
       </div>

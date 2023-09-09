@@ -18,8 +18,6 @@ export default function FName() {
            placeholder:text-gray-400  
             sm:text-sm sm:leading-6 border-b border-[ #3A719B]'
           placeholder='First Name *'
-          autoComplete='First Name'
-          required
         />
       </div>
     </div>

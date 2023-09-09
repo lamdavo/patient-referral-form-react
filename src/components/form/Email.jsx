@@ -13,8 +13,6 @@ export default function LastNameInput() {
           id='email'
           className='block w-full  border-0 py-1.5 pl-10 text-gray-900   placeholder:text-[#3A719B]   sm:text-sm sm:leading-6 border-b border-[#3A719B]'
           placeholder='Email *'
-          autoComplete='email'
-          required
         />
         <hr />
       </div>

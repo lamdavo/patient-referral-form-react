@@ -13,7 +13,6 @@ export default function Phone() {
           id='phone'
           className='block w-full  border-0 py-1.5 pl-10 text-gray-900   placeholder:text-gray-400   sm:text-sm sm:leading-6 border-b border-[ #3A719B]'
           placeholder='Phone *'
-          required
         />
       </div>
     </div>
